@@ -1,0 +1,12 @@
+* {
+font-family:'Courier New', Courier, monospace  
+}
+
+#profile-div ul{
+    list-style-type: none;
+}
+
+#profile-div li{
+    list-style-type: none;
+    padding: 3px;
+}
