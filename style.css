@@ -1,12 +1,43 @@
 * {
-font-family:'Courier New', Courier, monospace  
+font-family:'Courier New', Courier, monospace;  
+color: white;
+background-color: black;
+}
+
+#profile-div{
+    display:flex;
+    max-width: 20%;
+    background-color: #202327;
+    color: white;
+    position: absolute;
+    border-radius: 20px;
+    
 }
 
 #profile-div ul{
     list-style-type: none;
+    background-color: #202327;
 }
 
 #profile-div li{
     list-style-type: none;
     padding: 3px;
+    margin-right: 40px;
+    border: white;
+    background-color: #202327;
+}
+
+#profile-div a{
+    background-color: #202327;
+}
+
+#home-div{
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+#welcome-message{
+    
 }
