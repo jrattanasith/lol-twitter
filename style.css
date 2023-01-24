@@ -1,43 +1,58 @@
 * {
-font-family:'Courier New', Courier, monospace;  
+font-family: 'Helvetica Neue', sans-serif,'Courier New', Courier, monospace;  
 color: white;
 background-color: black;
 }
 
-#profile-div{
-    display:flex;
-    max-width: 20%;
-    background-color: #202327;
-    color: white;
-    position: absolute;
-    border-radius: 20px;
-    
+#body-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#nav-wrapper{
+    padding:5px;
+    margin-right: 35px;
 }
 
 #profile-div ul{
     list-style-type: none;
     background-color: #202327;
+    border-radius: 25px;
+}
+
+#profile-div ul h3{
+    background-color: #202327;
+    border-radius: 25px;
+
 }
 
 #profile-div li{
-    list-style-type: none;
     padding: 3px;
-    margin-right: 40px;
-    border: white;
     background-color: #202327;
+    border-radius: 25px;
+}
+
+#view-champ{
+    font-size: x-large;
+    color: #1d9bf0;
+    border-radius: 25px;
 }
 
 #profile-div a{
     background-color: #202327;
+    margin-right: 10px;
+    margin-left: -20px;
 }
 
 #home-div{
-  display: flex;
-  position: relative;
-  text-align: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
 }
 
-#welcome-message{
-    
+#home-wrapper{
+padding-right: 25px;
 }
+
