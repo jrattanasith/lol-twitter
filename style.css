@@ -4,6 +4,12 @@ color: white;
 background-color: black;
 }
 
+#beemo{
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
+}
+
 #body-wrapper{
     display: flex;
     flex-direction: row-reverse;
@@ -23,7 +29,6 @@ background-color: black;
 #profile-div ul h3{
     background-color: #202327;
     border-radius: 25px;
-
 }
 
 #profile-div li{
