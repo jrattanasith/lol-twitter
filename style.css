@@ -16,14 +16,22 @@ background-color: black;
 }
 
 #nav-wrapper{
-    padding:5px;
-    margin-right: 35px;
+    position:relative;
+    padding: 5px;
+    width: 25%;
+    margin-right: 25px;
+}
+
+ul{
+    padding:10%;
+    padding-right: 3px;
 }
 
 #profile-div ul{
     list-style-type: none;
     background-color: #202327;
     border-radius: 25px;
+    
 }
 
 #profile-div ul h3{
@@ -35,18 +43,21 @@ background-color: black;
     padding: 3px;
     background-color: #202327;
     border-radius: 25px;
-}
-
-#view-champ{
-    font-size: x-large;
-    color: #1d9bf0;
-    border-radius: 25px;
+    width: max-content;
+    align-content: center;
 }
 
 #profile-div a{
     background-color: #202327;
-    margin-right: 10px;
-    margin-left: -20px;
+    margin-right: 45px;
+}
+
+#view-champ{
+    display: flex;
+    justify-items: center;
+    font-size: x-large;
+    color: #1d9bf0;
+    width: max-content;
 }
 
 #home-div{
