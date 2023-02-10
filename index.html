@@ -5,14 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="index.js"></script>
+    
     <title>LOL Tweets</title>
 </head>
+
+<header>
+    <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav-item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav__link">Feed</a></li>
+            <li class="nav-item"><a href="#" class="nav__link">About Me</a></li>
+            <li class="nav-item"><a href="#" class="nav__link">My Work</a></li>
+            <li class="nav-item"><a href="" class="nav__link">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
 
 <body>
     <div id="body-wrapper">
 
-        <div id="home-wrapper">
+        <div class="home-wrapper">
             <div id="home-div">
                 <h1>Welcome to LoL Twitter</h1>
                 <p>Welcome to the League Twitter Project. This is a project that I am working on where I basically create different Twitter profiles for various characters in the League of Legends Universe. Depending on how much fun I have, I may make this open source or something so that many other people can add on to it. Until then, profile content for each chatacter will feature something that I think Runeterra characters would have in contemporary times. I hope whoever reads this a large amount of pain and suffering while reading this.</p>
@@ -21,32 +36,8 @@
                 <p>The best skin in the game</p>
             </div>
         </div>
-        
-        <div id="nav-wrapper">
-            <nav id="profile-div">
-                <ul>
-                    <a id="view-champ">View a Champion</a>
-                    
-                    <li><a href="">Teemo</a></li>
-                    <li><a href="">Garen</a></li>
-                    <li><a href="">Yasuo</a></li>
-                    <li><a href="">Akali</a></li>
-                    <li><a href="">Senna</a></li>
-                    <li><a href="">Jarvan Lightshield IV</a></li>
-                    <li><a href="">Xin Zhao</a></li>
-                    <li><a href="">Gnar</a></li>
-                    <li><a href="">Kled</a></li>
-                    <li><a href="">Malphite</a></li>
-                    <li><a href="">Seraphine</a></li>
-                    <li><a href="">Nami</a></li>
-                    
-                    
-                    <!-- Add more Champs above here -->
-                </ul>
-            </nav>
-        </div> 
     </div>
         
-    
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
