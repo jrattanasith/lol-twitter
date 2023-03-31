@@ -1,6 +1,6 @@
 # prod-land-page-mock
 
-This project is supposed to display Twitter profiles for various characters from Riot Games's "League of Legends" Universe. All content displayed is meant for entertainment purposes. The goal is to simluate a live social media feed in a fictional world. 
+This project is supposed to display Twitter profiles for various characters from Riot Games's "Runeterra" Universe. It includes characters that appear in League of Legends as well as Teamfight Tactics. All content displayed is meant for entertainment purposes. The goal is to simluate a live social media feed in a fictional world. 
 
 ## Table of Contents
 
